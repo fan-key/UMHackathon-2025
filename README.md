@@ -11,34 +11,23 @@ UMHackathon-2025/
 │   ├── netflow_hourly.csv
 │   ├── reserve_daily.csv
 │   ├── merged_dataset.csv      # Cleaned dataset for ML
-│   └── predictions_log.csv     # Optional: predictions output
 │
 ├── notebooks/                  # 📓 Step-by-step Jupyter workflows
 │   ├── 01_data_exploration.ipynb
-│   ├── 02_merge_and_clean.ipynb
-│   ├── 03_feature_engineering.ipynb
-│   ├── 04_model_training.ipynb
-│   ├── 05_evaluation.ipynb
-│   └── 06_realtime_prediction.ipynb
+│   ├── 02_feature_engineering.ipynb
+│   ├── 03_model_training.ipynb
+│   ├── 04_evaluation.ipynb
+│   └── 05_realtime_prediction.ipynb
 │
-├── scripts/                    # 🛠️ Python scripts for automation
+├── api/                    # 🛠️ Python scripts to fetch data
 │   ├── fetch_inflow.py
 │   ├── fetch_netflow.py
 │   ├── fetch_reserve.py
 │   ├── merge_and_save.py
-│   └── run_model_predict.py    # Optional: real-time prediction
-│
+│   └── update_all_data.py
+|
 ├── models/                     # 🤖 Saved ML models
 │   ├── model_random_forest.pkl
-│   └── model_logistic_reg.pkl
-│
-├── utils/                      # ⚙️ Reusable helper functions
-│   ├── preprocess.py
-│   ├── classify_rules.py
-│   └── model_utils.py
-│
-├── api/                        # 🌐 API and update logic
-│   └── update_all_data.py
 │
 ├── .env                        # 🔐 API keys, tokens (not committed)
 ├── requirements.txt            # 📆 Dependencies list
@@ -50,8 +39,8 @@ UMHackathon-2025/
 
 ### 1. Clone the repository
 ```
-git clone https://github.com/your_username/crypto-signal-project.git
-cd crypto-signal-project
+git clone https://github.com/fan-key/UMHackathon-2025.git
+cd UMHackathon-2025
 ```
 ### 2. Install dependencies
 ```
@@ -87,7 +76,7 @@ Use the notebooks in order for step-by-step development:
 
 ## 📅 Live Resources
 
-🌐 Website: [https://crypto-signal-demo.vercel.app](https://kzmndafg4k7vrax3qj5i.lite.vusercontent.net)
+
 
 📑 Slides: Crypto Signal Slide Deck
 
