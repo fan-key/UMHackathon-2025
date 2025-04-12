@@ -17,7 +17,7 @@ def fetch_netflow_data():
         "exchange": "okx",
         "window": "hour",
         "end_time": end_time,
-        "limit": 1000,
+        "limit": 10000,
         "flatten": True
     }
     try:
