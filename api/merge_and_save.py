@@ -9,11 +9,13 @@ def merge_data():
     inflow = pd.read_csv(os.path.join(data_dir, "inflow_data.csv"))
     netflow = pd.read_csv(os.path.join(data_dir, "netflow_data.csv"))
     reserve = pd.read_csv(os.path.join(data_dir, "reserve_data.csv"))
+    price = pd.read_csv(os.path.join(data_dir, "price_data.csv"))
 
     # Merge all on 'datetime'
-    merged_df = inflow \
-        .merge(netflow, on="datetime", how="inner") \
-        .merge(reserve, on="datetime", how="inner") 
+    # Merge datasets efficiently
+    merged_df = inflow.merge(netflow[['start_time', 'netflow_total']], on='start_time', how='inner')
+    merged_df = merged_df.merge(reserve[['start_time', 'reserve', 'reserve_usd']], on='start_time', how='left')
+    merged_df = merged_df.merge(price[['start_time', 'close','high','low','open','volume']], on='start_time', how='left')
 
     # Save merged file
     output_path = os.path.join(data_dir, "merged_dataset.csv")
