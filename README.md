@@ -77,6 +77,7 @@ Use the notebooks in order for step-by-step development:
 ## 📅 Live Resources
 
 
+🌐 Website: https://kzmndafg4k7vrax3qj5i.lite.vusercontent.net
 
 📑 Slides: Crypto Signal Slide Deck
 
