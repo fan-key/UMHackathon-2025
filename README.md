@@ -1,11 +1,11 @@
-# 📘 Crypto Signal Project
+# 📘 UMHackathon-2025
 
 - Welcome to the Crypto Signal Project, a machine learning pipeline that predicts Bitcoin BUY, HOLD, or SELL signals based on on-chain metrics and market data.
 
 ## 📂 Project Structure
 
 ```
-crypto-signal-project/
+UMHackathon-2025/
 ├── data/                        # 📊 Raw and processed data
 │   ├── inflow_hourly.csv
 │   ├── netflow_hourly.csv
