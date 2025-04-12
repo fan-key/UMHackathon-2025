@@ -77,9 +77,9 @@ Use the notebooks in order for step-by-step development:
 ## 📅 Live Resources
 
 
-🌐 Website: https://kzmndafg4k7vrax3qj5i.lite.vusercontent.net
+🌐 Website: [Prototype](https://kzmndafg4k7vrax3qj5i.lite.vusercontent.net)
 
-📑 Slides: [Crypto Signal Slide Deck](https://www.canva.com/design/DAGkaafQy2Y/sVlOGva2sfuia4vq9VJpXA/edit?utm_content=DAGkaafQy2Y&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+📑 Slides: [5 Budak Bujang Slide Presentation](https://www.canva.com/design/DAGkaafQy2Y/sVlOGva2sfuia4vq9VJpXA/edit?utm_content=DAGkaafQy2Y&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ## 📬 Contact
 
