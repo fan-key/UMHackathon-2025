@@ -1,4 +1,4 @@
-# 📘 UMHackathon-2025
+9# 📘 UMHackathon-2025
 
 - Welcome to the Crypto Signal Project, a machine learning pipeline that predicts Bitcoin BUY, HOLD, or SELL signals based on on-chain metrics and market data.
 
@@ -85,5 +85,4 @@ Use the notebooks in order for step-by-step development:
 
 For questions, contact [arfan.izanagi456@gmail.com] or open an issue.
 
-Happy trading ↗️
 
